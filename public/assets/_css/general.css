@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Helvetica_Regular;
+  src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Regular.otf');
+}
+
+@font-face {
+  font-family: Helvetica_Light;
+  src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Light.otf');
+}
+
+@font-face {
+  font-family: Helvetica_Bold;
+  src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Bold.otf');
+}
+
+@font-face {
+  font-family: Helvetica_Black;
+  src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Black.otf');
+}
+
+*{
+	font-family: Helvetica_Black;
+}
+
+
+body{
+	background-color: lightblue;
+}
