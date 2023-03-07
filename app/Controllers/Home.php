@@ -8,8 +8,8 @@ class Home extends BaseController
     {
         //$rows = $this->Administracao_model->getAllData('index_banner');
         $data = array(
-            'header_title' => 'BrandIgniters - Excelência & Inovação',
-            'header_desciption' => 'Marketing, Tecnologia e Eletrodomesticos.'
+            'header_title' => 'BrandIgniters - Excelência e Inovação',
+            'header_desciption' => 'Marketing, Técnologia e Eletrodomesticos.'
             //'rows' => $rows
         );
         return view('home_page', $data);

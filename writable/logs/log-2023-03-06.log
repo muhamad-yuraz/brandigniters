@@ -1,0 +1,13 @@
+CRITICAL - 2023-03-06 20:42:24 --> Invalid file: "_common/header_scripts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('_common/header_scripts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('_common/header_scripts', [], true)
+ 3 APPPATH\Views\home_page.php(35): view('_common/header_scripts')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home_page.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home_page', [], true)
+ 7 APPPATH\Controllers\Home.php(15): view('home_page', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

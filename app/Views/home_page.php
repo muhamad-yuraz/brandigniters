@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
+
+	<!-- BASIC META DATA-->
     <meta charset="UTF-8">
     <title><?php echo $header_title; ?></title>
     <meta name="description" content="<?php echo $header_desciption; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- INCLUDE COMMON HEADER LINKS-->
     <?php echo view('_common/header_links'); ?>
+    
     <!-- STYLES -->
 </head>
 
 <body>
-<!-- HEADER: MENU + HEROE SECTION -->
-<header>
-</header>
+
+<!-- INCLUDE HEADER -->
+<?php echo view('_common/header_menu'); ?>
 
 <!-- CONTENT -->
 <section>
-    <h1>Hello World</h1>
+    <div style="height: 2000px; background-color: #FDFDFD;"></div>
 </section>
 
-<!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+<!-- FOOTER:INFO + COPYRIGHTS -->
 <footer>
 </footer>
+
+<!-- INCLUDE COMMON HEADER SCRIPTS-->
+    <?php echo view('_common/footer_scripts'); ?>
 </body>
-
-<!-- SCRIPTS -->
-<!-- -->
-
 </html>
