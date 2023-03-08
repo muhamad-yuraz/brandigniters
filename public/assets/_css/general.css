@@ -18,6 +18,31 @@
   src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Black.otf');
 }
 
+@font-face {
+  font-family: Hurme_Geometric_Sans_Light;
+  src: url('../_fonts/Hurme_Geometric_Sans/HurmeGeometricSans4-Light.otf');
+}
+
+.hnd-b{
+	font-family: Helvetica_Bold;
+}
+
+.hnd-r{
+	font-family: Helvetica_Regular;
+}
+
+.hnd-l{
+	font-family: Helvetica_Light;
+}
+
+.hnd-bl{
+	font-family: Helvetica_Black;
+}
+
+.hgs-l{
+	font-family: Hurme_Geometric_Sans_Light;
+}
+
 *{
 	font-family: Helvetica_Regular;
 }
@@ -30,12 +55,24 @@ body{
 	margin-right: 15px;
 }
 
+.t-px{
+	font-size: 20px;
+}
+
 .t20-px{
 	font-size: 20px;
 }
 
+.t22-px{
+	font-size: 22px;
+}
+
 .t15-px{
 	font-size: 15px;
+}
+
+.t34-px{
+	font-size: 34px;
 }
 
 .menu-item-color{
@@ -44,15 +81,6 @@ body{
 
 /* Matches screen between 320px AND 768px */
 @media only screen and (max-width: 991px) {
-	  /*.menu-item-color{
-		color: rgba(255, 255, 255, .50);
-		font-family: Helvetica_Black;
-	}
-
-	.menu-item-color:hover{
-		color: rgba(255, 255, 255, 1);
-		font-family: Helvetica_Black;
-	}*/
 
 	.menu-item-color {
 	  background-image: linear-gradient(
@@ -94,12 +122,16 @@ body{
 }
 
 .navbar{
-	transition: all .4s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .navbar-scrolled{
 	background-color: #fff !important;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+}
+
+.bi-red-color{
+	color: #CC1840;
 }
 
 .btn-bi-red{
@@ -128,3 +160,83 @@ body{
 	color: #fff;
 }
 
+.sub-text-bi-hero{
+	color: #CC1840;
+	font-size: 30px;
+	padding-left: 15px;
+}
+
+.par-text-bi-hero{
+	color: #282828;
+	font-size: 20px;
+}
+
+.main-text-bi-hero{
+	color: #282828;
+	font-size: 39px;
+}
+
+.input-card {
+    display: flex;
+    background-color: #fff;
+    padding: 0.6125rem 0.6125rem;
+    /*box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);*/
+    border-radius: 0.5rem;
+}
+
+.input-card .input-card-form:not(:last-child) {
+    padding-right: 1rem;
+}
+.input-card .input-card-form {
+    position: relative;
+}
+
+.input-card .input-card-form {
+    flex: 1 0 0%;
+}
+
+.visually-hidden, .visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+.input-card .form-control {
+    border-width: 0;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #B1B1B1 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B1B1B1 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #B1B1B1 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B1B1B1 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #B1B1B1 !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #B1B1B1 !important;
+}

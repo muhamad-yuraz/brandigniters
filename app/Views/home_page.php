@@ -20,9 +20,13 @@
 <!-- INCLUDE HEADER -->
 <?php echo view('_common/header_menu'); ?>
 
-<!-- CONTENT -->
+<!-- MAIN PAGE CONTENT -->
 <section>
-    <div style="height: 2000px; background-color: #FDFDFD;"></div>
+
+	<!-- HERO -->
+	<?php echo view('_front-pages/_index/hero'); ?>
+
+    <div style="height: 2000px;"></div>
 </section>
 
 <!-- FOOTER:INFO + COPYRIGHTS -->
