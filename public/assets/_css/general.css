@@ -55,8 +55,8 @@ body{
 	margin-right: 15px;
 }
 
-.t-px{
-	font-size: 20px;
+.t18-px{
+	font-size: 18px;
 }
 
 .t20-px{
@@ -67,11 +67,19 @@ body{
 	font-size: 22px;
 }
 
+.t23-px{
+	font-size: 23px;
+}
+
 .t15-px{
 	font-size: 15px;
 }
 
 .t34-px{
+	font-size: 34px;
+}
+
+.t38-px{
 	font-size: 34px;
 }
 
@@ -85,6 +93,22 @@ body{
 
 .t32-px{
 	font-size: 28px;
+}
+
+.t40-px{
+	font-size: 40px;
+}
+
+.t44-px{
+	font-size: 44px;
+}
+
+.lh-44px{
+	line-height: 44px;
+}
+
+.lh-22px{
+	line-height: 22px;
 }
 
 .menu-item-color{
@@ -144,6 +168,23 @@ body{
 
 .bi-red-color{
 	color: #CC1840;
+}
+
+.bi-gray-color{
+	color: #707070;
+}
+
+.bg-bi-black-alt{
+	background-color: #282828;
+	border: 1px solid #282828;
+	color: white;
+	transition: all .15s ease-in-out;
+}
+
+.bg-bi-black-alt:hover{
+	background-color: white;
+	color: #282828;
+	transform: translateY(-15px);
 }
 
 .btn-bi-red{

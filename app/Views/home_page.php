@@ -26,6 +26,9 @@
 	<!-- HERO -->
 	<?php echo view('_front-pages/_index/hero'); ?>
 
+	<!-- SERVICOS -->
+	<?php echo view('_front-pages/_index/servicos'); ?>
+
     <div style="height: 2000px;"></div>
 </section>
 
