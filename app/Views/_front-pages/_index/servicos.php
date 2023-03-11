@@ -15,28 +15,28 @@
   
 
         <div class="col-md-5 offset-md-1 col-12 rounded">
-          <div class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
+          <div id="serv-icon-01" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-project-diagram mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Publicidade e<br>Marketing</p>
           </div>
         </div>
 
         <div class="col-md-5 col-12 rounded">
-          <div class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
+          <div id="serv-icon-02" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-server mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Informático</p>
           </div>
         </div>
 
         <div class="col-md-5 offset-md-1 col-12 rounded">
-          <div class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
+          <div id="serv-icon-03" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-tv-alt mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Eletronico</p>
           </div>
         </div>
 
         <div class="col-md-5 col-12 rounded">
-          <div class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
+          <div id="serv-icon-04" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-industry-alt mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Industrial</p>
           </div>
@@ -47,3 +47,18 @@
     </div>
   </div>
 </div>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+  document.getElementById("serv-icon-01").addEventListener("mouseover", changeIcon01);
+  document.getElementById("serv-icon-01").addEventListener("mouseout", changeIcon01out);
+
+  function changeIcon01() {
+    $('#serv-icon-01 i').toggleClass('fal fas');
+  }
+
+  function changeIcon01out() {
+    $('#serv-icon-01 i').toggleClass('fas fal');
+  }
+</script> -->
