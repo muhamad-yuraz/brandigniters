@@ -54,7 +54,7 @@
         </div>
 
         <div class="col-12 col-lg-7">
-          <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div id="splide-hero" class="splide" role="group" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">

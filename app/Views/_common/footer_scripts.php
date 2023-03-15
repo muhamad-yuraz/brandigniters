@@ -12,13 +12,21 @@
 			navEl.classList.remove('navbar-scrolled');
 		}
 	});
+
+	window.addEventListener("load", function() {
+    	if(window.scrollY >= 56){
+			navEl.classList.add('navbar-scrolled');
+		}else{
+			navEl.classList.remove('navbar-scrolled');
+		}
+	});
 </script>
 
 <!-- JS SLIDER -->
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 <script>
-	const splide = new Splide('.splide', {
+	const splide = new Splide('#splide-hero', {
 	   type   : 'loop',
 	   drag   : 'free',
 	   focus  : 'center',
@@ -38,4 +46,45 @@
 	});
 
 splide.mount(window.splide.Extensions);
+</script>
+
+<script type="text/javascript">
+	const splide_clientes = new Splide('#splide-clientes', {
+	   type   : 'loop',
+	   padding: { left: '6rem', right: '4.8rem' },
+	   perPage: 4,
+	   gap : "5rem",
+	   autoplay: true,
+	   breakpoints: {
+	   	320: {
+			perPage: 1,
+			gap : "8rem",
+			padding: { left: '5rem', right: '5rem' },
+		},
+	   	425: {
+			perPage: 1,
+			gap : "10rem",
+			padding: { left: '6rem', right: '4rem' },
+		},
+		767: {
+			perPage: 1,
+			gap : "6rem",
+			padding: { left: '10rem', right: '0rem' },
+		},
+		991: {
+			perPage: 2,
+			gap : "1rem",
+			padding: { left: '7rem', right: '0rem' },
+		},
+		1440: {
+			perPage: 3,
+			gap : "6rem",
+			padding: { left: '5rem', right: '0rem' },
+		}
+  	   },
+	   pagination : false,
+	   pauseOnHover: false,
+	});
+
+splide_clientes.mount();
 </script>

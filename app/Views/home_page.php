@@ -29,6 +29,9 @@
 	<!-- SERVICOS -->
 	<?php echo view('_front-pages/_index/servicos'); ?>
 
+    <!-- CLIENTES -->
+    <?php echo view('_front-pages/_index/clientes'); ?>
+
     <div style="height: 2000px;"></div>
 </section>
 

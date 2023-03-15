@@ -1,6 +1,6 @@
-<div class="container col-xxl-8 px-4 py-5 mb-0 mt-5">
+<div class="container col-xxl-8 px-4 py-5 my-5">
   <div class="row d-flex align-items-center g-5 py-5 pb-0">
-     <div class="col-lg-6 ps-lg-0 mt-0">
+     <div class="col-lg-6 ps-lg-0 mt-0 align-self-start">
         <p class="bi-red-color hnd-l mb-0">FOCO NA QUALIDADE</p>
         <h1 class="main-text-bi-hero mb-4 hnd-l mt-2">
           Trazemos ao mercado as <span class="hnd-b">melhores soluções</span> em <span class="hnd-b">produtos</span> e <span class="hnd-b">serviços.</span>
@@ -10,32 +10,32 @@
         <a href="#" class="btn btn-bi-red-outlined text-uppercase t15-px hnd-b align-items-center">Vamos conversar <i class=" ms-4 me-2 far fa-long-arrow-alt-right t22-px" style="vertical-align: middle;"></i></a>
     </div>
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-5 mt-lg-0 pt-4 pt-lg-0 align-self-start">
       <div class="row gx-5 gy-5 justify-content-md-center">
   
 
-        <div class="col-md-5 offset-md-1 col-12 rounded">
+        <div class="col-lg-5 offset-xl-1 col-12 rounded">
           <div id="serv-icon-01" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-project-diagram mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Publicidade e<br>Marketing</p>
           </div>
         </div>
 
-        <div class="col-md-5 col-12 rounded">
+        <div class="col-lg-5 col-12 rounded">
           <div id="serv-icon-02" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-server mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Informático</p>
           </div>
         </div>
 
-        <div class="col-md-5 offset-md-1 col-12 rounded">
+        <div class="col-lg-5 offset-xl-1 col-12 rounded">
           <div id="serv-icon-03" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-tv-alt mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Eletronico</p>
           </div>
         </div>
 
-        <div class="col-md-5 col-12 rounded">
+        <div class="col-lg-5 col-12 rounded">
           <div id="serv-icon-04" class="bg-bi-black-alt text-center pt-5 pb-4 rounded">
             <i class="fal fa-industry-alt mb-5 t40-px"></i>
             <p class="t20-px hnd-l lh-22px">Material<br>Industrial</p>
