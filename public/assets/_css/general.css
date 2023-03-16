@@ -71,8 +71,28 @@ body{
 	font-size: 23px;
 }
 
+.t8-px{
+	font-size: 8px;
+}
+
+.t9-px{
+	font-size: 9px;
+}
+
+.t10-px{
+	font-size: 10px;
+}
+
 .t15-px{
 	font-size: 15px;
+}
+
+.t17-px{
+	font-size: 17px;
+}
+
+.t14-px{
+	font-size: 14px;
 }
 
 .t34-px{
@@ -113,6 +133,10 @@ body{
 
 .menu-item-color{
 	color: #707070;
+}
+
+.ls-1px{
+	letter-spacing: 1px;
 }
 
 /* Matches screen between 320px AND 768px */
@@ -170,8 +194,20 @@ body{
 	color: #CC1840;
 }
 
+.bi-black-color{
+	color: #282828;
+}
+
+.bi-yellow-color{
+	color: #FFAC11;
+}
+
 .bi-red-background{
 	background-color: #CC1840;
+}
+
+.bi-yellow-background{
+	background-color: #FFAC11;
 }
 
 .bi-gray-color{
@@ -386,4 +422,11 @@ body{
 .silver-to-color:hover{
 	-webkit-filter: grayscale(0);
 	opacity: 1;
+}
+
+#vantagens-row > .col-4 > .card{
+	border: 0px solid;
+	background-color: #282828;
+	color: white;
+	border-radius: 13px;
 }

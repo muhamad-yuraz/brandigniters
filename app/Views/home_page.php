@@ -32,6 +32,9 @@
     <!-- CLIENTES -->
     <?php echo view('_front-pages/_index/clientes'); ?>
 
+    <!-- VANTAGENS -->
+    <?php echo view('_front-pages/_index/vantagens'); ?>
+
     <div style="height: 2000px;"></div>
 </section>
 
