@@ -424,7 +424,7 @@ body{
 	opacity: 1;
 }
 
-#vantagens-row > .col-4 > .card{
+#vantagens-row > .col-12 > .card{
 	border: 0px solid;
 	background-color: #282828;
 	color: white;
@@ -433,7 +433,7 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
-#vantagens-row > .col-4 > .card::after{
+#vantagens-row > .col-12 > .card::after{
 	content: '';
   position: absolute;
   z-index: -1;
@@ -445,10 +445,10 @@ body{
   transition: opacity .15s ease-in-out;
 }
 
-#vantagens-row > .col-4 > .card:hover{
+#vantagens-row > .col-12 > .card:hover{
 	transform: scale(1.05, 1.05) translateY(-15px);
 }
 
-#vantagens-row > .col-4 > .card:hover::after{
+#vantagens-row > .col-12 > .card:hover::after{
 	opacity: 1;
 }

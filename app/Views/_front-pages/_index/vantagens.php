@@ -3,9 +3,9 @@
 		<div class="col-12 text-center mb-5">
 			<p class="bi-red-color hnd-l mb-0">FIQUE DESCANSADO</p>
 			<h1 class="main-text-bi-hero mb-4 hnd-l mt-2">Trabalhamos com garantia</h1>
-			<p class="bi-gray-color t22-px hnd-l lh-44px mb-5">Ao rabalhar conosco <span class="hnd-b">garantimos</span> a si ou a sua instituição os melhores produtos<br> e serviços aos <span class="hnd-b">melhores preços</span> sempre.</p>
+			<p class="bi-gray-color t22-px hnd-l lh-44px mb-4">Ao rabalhar conosco <span class="hnd-b">garantimos</span> a si ou a sua instituição os melhores produtos<br> e serviços aos <span class="hnd-b">melhores preços</span> sempre.</p>
 		</div>
-		<div class="col-4">
+		<div class="col-12 col-xl-4">
 			<div class="card">
 			  <img src="<?php echo base_url(); ?>public/assets/_imagens/index/assistencia.png" class="card-img-top" alt="...">
 			  <div class="card-body pt-3 pb-5 ps-5 pe-5">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 
-		<div class="col-4">
+		<div class="col-12 col-xl-4">
 			<div class="card">
 			  <img src="<?php echo base_url(); ?>public/assets/_imagens/index/entrega.png" class="card-img-top" alt="...">
 			  <div class="card-body pt-3 pb-5 ps-5 pe-5">
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 
-		<div class="col-4">
+		<div class="col-12 col-xl-4">
 			<div class="card">
 			  <img src="<?php echo base_url(); ?>public/assets/_imagens/index/delivery.png" class="card-img-top" alt="...">
 			  <div class="card-body pt-3 pb-5 ps-5 pe-5">
