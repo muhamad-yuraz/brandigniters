@@ -23,6 +23,11 @@
   src: url('../_fonts/Hurme_Geometric_Sans/HurmeGeometricSans4-Light.otf');
 }
 
+@font-face {
+  font-family: Hurme_Geometric_Sans_Thin;
+  src: url('../_fonts/Helvetica_Now/Helvetica_Now_Display/HelveticaNowDisplay-Thin.otf');
+}
+
 .hnd-b{
 	font-family: Helvetica_Bold;
 }
@@ -39,9 +44,14 @@
 	font-family: Helvetica_Black;
 }
 
+.hnd-t{
+	font-family: Hurme_Geometric_Sans_Thin;
+}
+
 .hgs-l{
 	font-family: Hurme_Geometric_Sans_Light;
 }
+
 
 *{
 	font-family: Helvetica_Regular;
@@ -53,6 +63,18 @@ body{
 
 .mr-15px{
 	margin-right: 15px;
+}
+
+.t10-px{
+	font-size: 10px;
+}
+
+.t12-px{
+	font-size: 12px;
+}
+
+.t16-px{
+	font-size: 16px;
 }
 
 .t18-px{
@@ -83,6 +105,10 @@ body{
 	font-size: 10px;
 }
 
+.t13-px{
+	font-size: 13px;
+}
+
 .t15-px{
 	font-size: 15px;
 }
@@ -100,7 +126,7 @@ body{
 }
 
 .t38-px{
-	font-size: 34px;
+	font-size: 38px;
 }
 
 .t30-px{
@@ -137,6 +163,15 @@ body{
 
 .ls-1px{
 	letter-spacing: 1px;
+}
+
+.text-justify{
+	text-align:justify !important;
+}
+
+.word-break{
+/*	word-break: break-all;*/
+	hyphens: manual;
 }
 
 /* Matches screen between 320px AND 768px */
@@ -206,12 +241,34 @@ body{
 	background-color: #CC1840;
 }
 
+.bi-yellow-background-alt{
+	background-color: #FFAC11;
+	color: white;
+	border: 2px solid #FFAC11;
+	transition: all .15s ease-in-out;
+}
+
+.bi-yellow-background-alt:hover{
+	background-color: #282828;
+	border: 2px solid #FFAC11;
+	color: #FFAC11;
+}
+
 .bi-yellow-background{
 	background-color: #FFAC11;
 }
 
 .bi-gray-color{
 	color: #707070;
+}
+
+.bg-bi-black{
+	background-color: #282828;
+	color: white;
+}
+
+.bg-bi-black a{
+	color: white;
 }
 
 .bg-bi-black-alt{
@@ -239,6 +296,19 @@ body{
 .btn-bi-red:hover{
 	background-color: #282828;
 	color: #fff;
+}
+
+.btn-bi-yellow{
+	background-color: #FFAC11;
+	color: #282828;
+	border: 2px solid#FFAC11;
+	transition: all .15s ease-in-out;
+	padding: 10px 25px 10px 25px;
+}
+
+.btn-bi-yellow:hover{
+	background-color: #282828;
+	color: #FFAC11;
 }
 
 
@@ -430,7 +500,8 @@ body{
 	color: white;
 	border-radius: 13px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  border: 0px solid;
 }
 
 #vantagens-row > .col-12 > .card::after{
@@ -442,7 +513,7 @@ body{
   opacity: 0;
   border-radius: 13px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transition: opacity .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 #vantagens-row > .col-12 > .card:hover{

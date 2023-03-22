@@ -1,0 +1,15 @@
+CRITICAL - 2023-03-21 18:25:19 --> Undefined variable $year
+in APPPATH\Views\_common\footer_menu.php on line 46.
+ 1 APPPATH\Views\_common\footer_menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $year', 'APPPATH\\Views\\_common\\footer_menu.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\_common\\footer_menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('_common/footer_menu', [], true)
+ 5 APPPATH\Views\home_page.php(42): view('_common/footer_menu')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home_page.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home_page', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('home_page', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

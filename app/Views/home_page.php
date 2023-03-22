@@ -34,13 +34,13 @@
 
     <!-- VANTAGENS -->
     <?php echo view('_front-pages/_index/vantagens'); ?>
-
-    <div style="height: 2000px;"></div>
 </section>
 
 <!-- FOOTER:INFO + COPYRIGHTS -->
-<footer>
-</footer>
+<div class="bg-bi-black" style="border-top-left-radius: 250px; border-top-right-radius: 250px;">
+    <!-- VANTAGENS -->
+    <?php echo view('_common/footer_menu'); ?>
+</div>
 
 <!-- INCLUDE COMMON HEADER SCRIPTS-->
     <?php echo view('_common/footer_scripts'); ?>
