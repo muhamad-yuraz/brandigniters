@@ -53,6 +53,7 @@ splide.mount(window.splide.Extensions);
 	   type   : 'loop',
 	   padding: { left: '6rem', right: '4.8rem' },
 	   perPage: 4,
+	   perMove: 1,
 	   gap : "5rem",
 	   autoplay: true,
 	   breakpoints: {

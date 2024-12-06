@@ -7,7 +7,7 @@
         </h1>
         <p class="bi-gray-color t22-px hnd-l lh-44px mb-5">Somos uma empresa com foco em trazer <span class="hnd-b">soluções práticas, inovadoras</span> e <span class="hnd-b">modernas</span> para o mercado. A nossa empresa é especializada em soluções completas de marketing e publicidade, fornecimento de material informático e de escritório, material eletrônico e equipamentos industriais.</p>
 
-        <a href="#" class="btn btn-bi-red-outlined text-uppercase t15-px hnd-b align-items-center">Vamos conversar <i class=" ms-4 me-2 far fa-long-arrow-alt-right t22-px" style="vertical-align: middle;"></i></a>
+        <a href="#" class="btn btn-bi-red-outlined text-uppercase t15-px hnd-b align-items-center">Vamos conversar <i class=" ms-4 me-2 fa-solid fa-right-long t22-px" style="vertical-align: middle;"></i></a>
     </div>
 
     <div class="col-lg-6 mt-5 mt-lg-0 pt-4 pt-lg-0 align-self-start">

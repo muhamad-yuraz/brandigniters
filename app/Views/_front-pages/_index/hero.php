@@ -35,7 +35,7 @@
 
           <p class="mt-2 text-sm-small">
             <i class="far fa-star pe-2 bi-red-color"></i> 
-            <span class="hnd-b">200+ Clientes</span> <span class="me-1">Satisfeitos</span>  | 
+            <span class="hnd-b">2000+ Clientes</span> <span class="me-1">Satisfeitos</span>  | 
             <i class="far fa-credit-card ms-2 me-2 bi-red-color"></i> Melhores preços
           </p>
           <!-- End Input Card -->

@@ -14,32 +14,36 @@
         <div id="splide-clientes" class="splide" role="group" aria-label="Splide Basic HTML Example">
           <div class="splide__arrows">
             <button class="splide__arrow splide__arrow--prev">
-              <i class="far fa-long-arrow-alt-left fa-2x"></i>
+              <i class="fa-solid fa-left-long fa-2x"></i>
             </button>
             <button class="splide__arrow splide__arrow--next">
-              <i class="far fa-long-arrow-alt-right fa-2x"></i>
+              <i class="fa-solid fa-right-long fa-2x"></i>
             </button>
           </div>
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/bayport.svg" height="30" class="silver-to-color">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/bayport.svg" height="30" style="margin-left: 20px;" class="silver-to-color">
               </li>
 
               <li class="splide__slide">
-                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/cfm.svg" height="30" class="silver-to-color">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/cfm.svg" height="30" style="margin-left: 20px;" class="silver-to-color">
               </li>
 
               <li class="splide__slide">
-                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/millenniumbim.svg" height="30" class="silver-to-color">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/millenniumbim.svg" height="30" style="margin-left: 20px;" class="silver-to-color">
               </li>
 
               <li class="splide__slide">
-                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/total_energies.svg" height="30" class="silver-to-color">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/total_energies.svg" height="30" style="margin-left: -25px;" class="silver-to-color">
               </li>
 
               <li class="splide__slide">
-                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/radisson_blu.svg" height="35" style="margin-left: 50px;" class="silver-to-color">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/radisson_blu.svg" height="35" style="margin-left: 20px;" class="silver-to-color">
+              </li>
+
+              <li class="splide__slide">
+                <img src="<?php echo base_url(); ?>public/assets/_imagens/marcas/cinzas_svg/isutc.svg" height="45" style="margin-left: 30px;" class="silver-to-color">
               </li>
             </ul>
           </div>

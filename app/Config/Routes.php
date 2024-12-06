@@ -34,7 +34,11 @@ $routes->get('/', 'Home::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
- * --------------------------------------------------------------------
+ */
+    $routes->get('sobre', 'Home::sobre');
+    $routes->get('servicos', 'Home::servicos');
+ /* 
+ --------------------------------------------------------------------
  *
  * There will often be times that you need additional routing and you
  * need it to be able to override any defaults in this file. Environment

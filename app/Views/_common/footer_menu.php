@@ -1,10 +1,10 @@
 <div class="container">
 	<footer class="pt-5 pb-3">
 		<div class="row mt-5 pt-3 mb-3">
-			<div class="col-12 col-md-4 mb-3">
+			<div class="col-12 col-lg-4 mb-3">
 				<h5><img src="<?php echo base_url(); ?>public/assets/_imagens/main_logo/brandigniters_all-white.svg" height="41"></h5>
 				
-				<ul class="nav flex-column mt-3 pt-4 pe-4">
+				<ul class="nav flex-column mt-3 pt-4 pe-lg-4 mb-5 mb-lg-0">
 					<li class="nav-item mb-2">
 						<p class="bi-yellow-color hnd-t t18-px ls-1px mb-1">#excelência #inovação</p>
 						<p class="hnd-t t18-px opacity-75 ls-1px mb-4">Somos uma empresa com foco em trazer soluções práticas, inovadoras e modernas para o mercado.</p>
@@ -29,12 +29,12 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-12 col-md-4 mb-3 ps-5 pe-2">
+			<div class="col-12 col-lg-4 mb-3 ps-lg-5 pe-lg-2 mb-5 mb-lg-0">
 				<h3 class="hnd-b ls-1px">Links rápidos</h3>
 				<ul class="nav flex-column mt-3 pt-4">
-					<li class="nav-item mb-3"><a href="#" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Página inicial</a></li>
-					<li class="nav-item mb-3"><a href="#" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Sobre nós</a></li>
-					<li class="nav-item mb-3"><a href="#" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Os nossos serviços</a></li>
+					<li class="nav-item mb-3"><a href="<?php echo base_url(); ?>" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Página inicial</a></li>
+					<li class="nav-item mb-3"><a href="<?php echo base_url('sobre'); ?>" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Sobre nós</a></li>
+					<li class="nav-item mb-3"><a href="<?php echo base_url('servicos'); ?>" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Os nossos serviços</a></li>
 					<li class="nav-item mb-4"><a href="#" class="hnd-t t18-px opacity-75 ls-1px text-decoration-none">- Os nossos produtos</a></li>
 					<li class="nav-item">
 						<span class="mt-4 badge bi-yellow-background rounded-0 text-white hnd-b t9-px me-2 p-2 ps-4 pe-4 ls-1px">NOTA</span> <i class="far fa-person-sign bi-yellow-color fa-lg"></i>
@@ -42,7 +42,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-12 col-md-4 mb-3 ps-5">
+			<div class="col-12 col-lg-4 mb-3 ps-lg-5">
 				<h3 class="hnd-b ls-1px">Contactos</h3>
 				<ul class="nav flex-column mt-3 pt-4">
 					<li class="nav-item mb-3">
@@ -83,13 +83,15 @@
 </div>
 <hr>
 <div class="container">
-	<footer>
-		<div class="d-flex flex-column flex-sm-row justify-content-between  pt-4 pb-4 opacity-75 ls-1px t16-px">
-			<p class="hnd-t">Todos direitos reservados © Brandigniters Moçambique <?php echo date('Y'); ?></p>
-			<ul class="list-unstyled d-flex">
-				<li class="ms-3"><a class="text-white me-3 text-decoration-none hnd-t" href="#">Politicas De Privacidade</a></li> |
-				<li class="ms-3"><a class="text-white text-decoration-none hnd-t" href="#">Termos e Condições</a></li>
+	<div class="row pt-4 pb-4">
+		<div class="col-12 col-lg-6 d-flex justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-start justify-content-xl-start">
+			<p class="hnd-t opacity-75 ls-1px t16-px text-center text-sm-center text-md-left">Todos direitos reservados © Brandigniters Moçambique <?php echo date('Y'); ?></p>
+		</div>
+		<div class="col-12 col-lg-6">
+			<ul class="list-unstyled d-flex justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-end justify-content-xl-end">
+				<li class="me-3"><a class="text-white text-decoration-none hnd-t opacity-75 ls-1px t16-px" href="#">Politicas De Privacidade</a></li> |
+				<li class="ms-3"><a class="text-white text-decoration-none hnd-t opacity-75 ls-1px t16-px" href="#">Termos e Condições</a></li>
 			</ul>
 		</div>
-	</footer>
+	</div>
 </div>

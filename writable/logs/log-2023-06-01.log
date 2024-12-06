@@ -1,0 +1,11 @@
+CRITICAL - 2023-06-01 13:20:19 --> Undefined property: CodeIgniter\Autoloader\Autoloader::$load
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Autoloader\\Autoloader::$load', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 6 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 7 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

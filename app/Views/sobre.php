@@ -22,18 +22,15 @@
 
 <!-- MAIN PAGE CONTENT -->
 <section>
+    <!-- HERO -->
+    <?php echo view('_front-pages/_sobre/hero'); ?>
 
-	<!-- HERO -->
-	<?php echo view('_front-pages/_index/hero'); ?>
+    <!-- UM POUCO SOBRE -->
+    <?php echo view('_front-pages/_sobre/sobre'); ?>
 
-	<!-- SERVICOS -->
-	<?php echo view('_front-pages/_index/servicos'); ?>
+    <!-- CARDS -->
+    <?php echo view('_front-pages/_sobre/cards'); ?>
 
-    <!-- CLIENTES -->
-    <?php echo view('_front-pages/_index/clientes'); ?>
-
-    <!-- VANTAGENS -->
-    <?php echo view('_front-pages/_index/vantagens'); ?>
 </section>
 
 <!-- FOOTER:INFO + COPYRIGHTS -->
