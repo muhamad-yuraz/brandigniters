@@ -5,7 +5,7 @@
 <div class="container col-xxl-8 px-5 py-5 pb-5 mb-5 mt-5">
   <div class="row d-flex align-items-center g-5 py-5 pb-5">
     
-    <div class="col-12 col-xl-12 col-xxl-6">
+    <div class="col-12 col-xl-6">
       <div class="card bg-dark">
         <img src="<?php echo base_url(); ?>public/assets/_imagens/servicos/1.png" class="card-img" />
         <div class="card-img-overlay card-body pt-5 pb-5 ps-4 pe-4" style="background-color: rgba(40, 40, 40, .9);">
@@ -39,7 +39,7 @@
     </div>
 
 
-    <div class="col-12 col-xl-12 col-xxl-6">
+    <div class="col-12 col-xl-6">
       <div class="card bg-dark">
         <img src="<?php echo base_url(); ?>public/assets/_imagens/servicos/2.png" class="card-img" />
         <div class="card-img-overlay card-body pt-5 pb-5 ps-4 pe-4" style="background-color: rgba(40, 40, 40, .9);">

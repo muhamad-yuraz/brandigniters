@@ -34,5 +34,14 @@ class Home extends BaseController
         );
         return view('servicos', $data);
     }
+
+    public function contactos()
+    {
+        $data = array(
+            'header_title' => 'BrandIgniters - Contacte-nos',
+            'header_desciption' => 'Contact-us - BrandIgniters'
+        );
+        return view('contacte-nos', $data);
+    }
 }
 

@@ -27,12 +27,12 @@
 		        	</li>
 		      	</ul>
 		      	<div class="d-flex d-none d-lg-block">
-		      		<a href="#" class="btn btn-bi-red text-uppercase t15-px">Contacte-nos</a>
+		      		<a href="<?php echo base_url('contactos') ?>" class="btn btn-bi-red text-uppercase t15-px">Contacte-nos</a>
 		      	</div>
 	      	</div>
 	      	<div style="max-height: 100px; min-height: 100px; border-top: 1px solid rgba(255, 255, 255, .3);" class="d-flex justify-content-center order-2 w-100 d-lg-none">
                 <div class="align-self-center w-75 mt-3 mb-3">
-                    <a href="#" class="btn form-control btn-bi-red-outlined-alt text-uppercase t15-px hnd-b"><i class="fa-solid fa-phone-volume pe-2"></i> Contacte-nos</a>
+                    <a href="<?php echo base_url('contactos') ?>?" class="btn form-control btn-bi-red-outlined-alt text-uppercase t15-px hnd-b"><i class="fa-solid fa-phone-volume pe-2"></i> Contacte-nos</a>
                 </div>
             </div>
 	    </div>

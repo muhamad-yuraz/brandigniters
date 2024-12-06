@@ -37,6 +37,7 @@ $routes->get('/', 'Home::index');
  */
     $routes->get('sobre', 'Home::sobre');
     $routes->get('servicos', 'Home::servicos');
+    $routes->get('contactos', 'Home::contactos');
  /* 
  --------------------------------------------------------------------
  *
