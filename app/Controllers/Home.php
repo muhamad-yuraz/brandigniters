@@ -10,7 +10,7 @@ class Home extends BaseController
         //$rows = $this->Administracao_model->getAllData('index_banner');
         $data = array(
             'header_title' => 'BrandIgniters - Excelência e Inovação',
-            'header_desciption' => 'Marketing, Técnologia e Eletrodomesticos.'
+            'header_desciption' => 'Homepage - BrandIgniters'
             //'rows' => $rows
         );
         return view('home_page', $data);
@@ -21,7 +21,7 @@ class Home extends BaseController
     {
         $data = array(
             'header_title' => 'BrandIgniters - Sobre',
-            'header_desciption' => 'Marketing, Técnologia e Eletrodomesticos.'
+            'header_desciption' => 'About - BrandIgniters'
         );
         return view('sobre', $data);
     }
@@ -30,8 +30,9 @@ class Home extends BaseController
     {
         $data = array(
             'header_title' => 'BrandIgniters - Servicos',
-            'header_desciption' => 'Marketing, Técnologia e Eletrodomesticos.'
+            'header_desciption' => 'Services - BrandIgniters'
         );
         return view('servicos', $data);
     }
 }
+
