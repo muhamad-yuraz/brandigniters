@@ -25,6 +25,9 @@
     <!-- HERO -->
     <?php echo view('_front-pages/_contacte-nos/hero'); ?>
 
+    <!-- FORM / SOCIAL MEDIA ADDRESS / OTHER -->
+    <?php echo view('_front-pages/_contacte-nos/form'); ?>
+
 </section>
 
 <!-- FOOTER:INFO + COPYRIGHTS -->

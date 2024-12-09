@@ -755,3 +755,108 @@ transform: translateX(10px);
 	background-color: transparent;
 	color: #FFAC11;
 }
+
+.yellow-under-tittle-line{
+	border: 1px solid #FFAC11;
+	opacity: 1 !important;
+}
+
+.btn-whatsapp {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0CC142;
+    --bs-btn-border-color: #0CC142;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5DD581;
+    --bs-btn-hover-border-color: #5DD581;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0CC142;
+    --bs-btn-active-border-color: #0CC142;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0CC142;
+    --bs-btn-disabled-border-color: #0CC142;
+}
+
+.btn-instagram {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #B92E62;
+    --bs-btn-border-color: #B92E62;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #D07396;
+    --bs-btn-hover-border-color: #D07396;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #B92E62;
+    --bs-btn-active-border-color: #B92E62;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #B92E62;
+    --bs-btn-disabled-border-color: #B92E62;
+}
+
+.btn-facebook {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4967AA;
+    --bs-btn-border-color: #4967AA;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8599C6;
+    --bs-btn-hover-border-color: #8599C6;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #8599C6;
+    --bs-btn-active-border-color: #4967AA;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #4967AA;
+    --bs-btn-disabled-border-color: #4967AA;
+}
+
+.btn-behance {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0055FF;
+    --bs-btn-border-color: #0055FF;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #558DFF;
+    --bs-btn-hover-border-color: #558DFF;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #558DFF;
+    --bs-btn-active-border-color: #0055FF;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0055FF;
+    --bs-btn-disabled-border-color: #0055FF;
+}
+
+.icon-container{
+	position: relative;
+}
+
+.icon-container i{
+	position:absolute;
+  line-height: 24px;
+  top:50%;
+  margin-top: -12px; /* Half of line height to keep left middle postion of container */
+  left: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera --  Remover setas nos inputs de numeros*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    border-color: #282828;
+    outline: 0;
+    box-shadow: none;
+}
