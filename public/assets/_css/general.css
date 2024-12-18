@@ -860,3 +860,10 @@ input[type=number] {
     outline: 0;
     box-shadow: none;
 }
+
+.errors{
+	background-color: #efefef;
+    margin: 25px 0px 5px 0px;
+    padding: 25px 25px 17px 25px;
+    border-radius: 8px;
+}

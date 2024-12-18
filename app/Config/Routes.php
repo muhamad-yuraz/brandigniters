@@ -37,7 +37,8 @@ $routes->get('/', 'Home::index');
  */
     $routes->get('sobre', 'Home::sobre');
     $routes->get('servicos', 'Home::servicos');
-    $routes->get('contactos', 'Home::contactos');
+    //$routes->get('contactos', 'Home::contactos');
+    $routes->match(['GET', 'POST'], 'contactos', 'Home::contactos');
  /* 
  --------------------------------------------------------------------
  *

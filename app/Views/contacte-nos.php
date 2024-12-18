@@ -11,6 +11,12 @@
     
     <!-- INCLUDE COMMON HEADER LINKS-->
     <?php echo view('_common/header_links'); ?>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#exampleModal").modal('show');
+        });
+    </script>
     
     <!-- STYLES -->
 </head>
