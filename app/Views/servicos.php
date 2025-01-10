@@ -22,6 +22,12 @@
 
 <!-- MAIN PAGE CONTENT -->
 <section>
+
+    <div id="coverAll">
+        <div class="coverContent">
+            <img src="<?php echo base_url(); ?>public/assets/_imagens/loading/brandigniters-loading-animation.gif"/>
+        </div>
+    </div>
     
     <!-- HERO -->
     <?php echo view('_front-pages/_servicos/hero'); ?>

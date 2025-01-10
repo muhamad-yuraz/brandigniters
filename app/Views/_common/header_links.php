@@ -46,3 +46,11 @@
 
 <!-- ALWAYS ADD COSTUM CSS AS LAST TO OVERWRITE ALL OTHERS-->
 <link rel="stylesheet" href="<?php echo base_url(); ?>public/assets/_css/general.css">
+
+<script type="text/javascript">
+     $(window).on("load", function() {
+      // document.fonts.onloadingdone = () => {
+        $('#coverAll').slideUp('fast');
+    // };
+  });  
+</script>

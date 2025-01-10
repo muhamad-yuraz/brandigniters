@@ -17,6 +17,12 @@
 
 <body>
 
+    <div id="coverAll">
+        <div class="coverContent">
+            <img src="<?php echo base_url(); ?>public/assets/_imagens/loading/brandigniters-loading-animation.gif"/>
+        </div>
+    </div>
+
 <!-- INCLUDE HEADER -->
 <?php echo view('_common/header_menu'); ?>
 
