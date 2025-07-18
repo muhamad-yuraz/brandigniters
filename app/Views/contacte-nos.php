@@ -47,7 +47,18 @@
     <?php echo view('_common/footer_menu'); ?>
 </div>
 
-<!-- INCLUDE COMMON HEADER SCRIPTS-->
+<!-- INCLUDE COMMON FOOTER SCRIPTS-->
     <?php echo view('_common/footer_scripts'); ?>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
